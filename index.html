@@ -13,17 +13,18 @@
 
   <body>
     <div class="wrapper">
+      <div id="overlay"></div>
       <!-- sidebar start -->
-      <div class="sidebar">
+      <div class="sidebar shadow">
         <div class="admin_brand d-flex justify-content-between align-items-baseline">
           <div>
-            <a class="nav-link text-light" href="#">
+            <a class="nav-link fw-bold" href="#">
               <span class="icon"><i class="fas fa-code"></i></span>
               <span class="menu">Admin Panel</span>
             </a>
           </div>
           <div class="d-block d-md-none">
-            <a href="javascript:void(0)" id="close_sidebar"><i class="fas fa-times-circle fa-lg text-light"></i></a>
+            <a href="javascript:void(0)" id="close_sidebar"><i class="fas fa-times-circle fa-lg text-secondary"></i></a>
           </div>
         </div>
         <ul class="nav nav-pills flex-column">
@@ -55,7 +56,7 @@
       <!-- sidebar end -->
       <div class="content">
         <!-- top navbar start -->
-        <nav class="navbar navbar-expand-md navbar-light shadow bg-light">
+        <nav class="navbar navbar-expand-md navbar-light bg-light shadow">
           <div class="container-fluid px-3">
 
             <button class="navbar-toggler" type="button" id="show_sidebar_phone">
@@ -87,7 +88,7 @@
         </nav>
         <!-- top navbar end -->
         <!-- main content start -->
-        <main class="p-4">
+        <main class="p-4 bg-secondary bg-opacity-25 min-vh-100">
           <div class="row">
             <div class="col-lg-12">
               <div class="card shadow">

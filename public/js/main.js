@@ -1,6 +1,7 @@
 const showSidebarBtn = document.querySelector('#show_sidebar_phone');
 const showSidebarBtnPc = document.querySelector('#show_sidebar_pc');
 const closeSidebarBtn = document.querySelector('#close_sidebar');
+const overlay = document.querySelector('#overlay');
 
 showSidebarBtn.onclick = function () {
   const sidebar = document.querySelector('.wrapper');
@@ -8,6 +9,11 @@ showSidebarBtn.onclick = function () {
 }
 
 closeSidebarBtn.onclick = function () {
+  const sidebar = document.querySelector('.wrapper');
+  sidebar.classList.remove('show');
+}
+
+overlay.onclick = function () {
   const sidebar = document.querySelector('.wrapper');
   sidebar.classList.remove('show');
 }
