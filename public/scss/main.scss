@@ -23,10 +23,35 @@ body {
 		z-index: 1052;
 		.admin_brand {
 			padding: 16px 15px 16px 15px;
-			border-bottom: 1px solid #999;
+			border-bottom: 1px solid #888;
 		}
 		.icon {
 			padding-right: 10px;
+		}
+		.nav-item {
+			padding: 4px;
+			border-bottom: 1px solid #888;
+
+			.nav-link {
+				color: #ccc !important;
+			}
+			&:hover {
+				background-image: radial-gradient(
+					circle 610px at 5.2% 51.6%,
+					rgba(5, 8, 114, 1) 0%,
+					rgba(7, 3, 53, 1) 97.5%
+				);
+				border-right: 10px solid transparent;
+			}
+			&.active {
+				color: #eee !important;
+				background-image: linear-gradient(
+					96.5deg,
+					rgba(39, 103, 187, 1) 10.4%,
+					rgba(16, 72, 144, 1) 87.7%
+				);
+				border-right: 10px solid transparent;
+			}
 		}
 	}
 	&.show_pc {
@@ -49,7 +74,6 @@ body {
 
 @media (max-width: 768px) {
 	.wrapper {
-		display: block;
 		.sidebar {
 			width: 0;
 			position: absolute;

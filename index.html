@@ -17,7 +17,7 @@
       <div class="sidebar">
         <div class="admin_brand d-flex justify-content-between align-items-baseline">
           <div>
-            <a class="nav-link text-light rounded-0" href="#">
+            <a class="nav-link text-light" href="#">
               <span class="icon"><i class="fas fa-code"></i></span>
               <span class="menu">Admin Panel</span>
             </a>
@@ -29,17 +29,24 @@
         <ul class="nav nav-pills flex-column">
 
           <li class="nav-item">
-            <a class="nav-link text-light active rounded-0" href="#">
+            <a class="nav-link" href="#">
               <span class="icon" data-bs-toggle="tooltip" data-bs-title="Dashboard"><i
                   class="fas fa-dashboard"></i></span>
               <span class="menu">Dashboard</span>
             </a>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link text-light rounded-0" href="#">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">
               <span class="icon" data-bs-toggle="tooltip" data-bs-title="Users"><i class="fas fa-users"></i></span>
               <span class="menu">Users</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="icon" data-bs-toggle="tooltip" data-bs-title="Logout"><i class="fas fa-sign-out"></i></span>
+              <span class="menu">Logout</span>
             </a>
           </li>
 
@@ -63,9 +70,9 @@
             <div class="fw-bold text-secondary d-md-none d-block">Admin Panel</div>
 
             <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+              <button class="btn bg-transparent dropdown-toggle" type="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
-                <i class="fas fa-user-circle fa-lg me-2"></i>User
+                <i class="fas fa-user-circle fa-lg me-2"></i>Sahil
               </button>
               <ul class="dropdown-menu dropdown-menu-end">
                 <li><a class="dropdown-item" href="#"><i class="fa-solid fa-address-card me-2"></i>Profile</a></li>
@@ -109,6 +116,7 @@
           </div>
         </main>
         <!-- main content end -->
+
       </div>
     </div>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
