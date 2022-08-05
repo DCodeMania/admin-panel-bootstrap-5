@@ -21,8 +21,11 @@ showSidebarBtnPc.onclick = function () {
   wrapper.classList.toggle('show_pc');
 }
 
+
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+tooltipTriggerList.forEach(function (item) {
+  new bootstrap.Tooltip(item);
+});
 
 fullscreen.onclick = function () {
   const i = document.querySelector('#fullscreen i');
