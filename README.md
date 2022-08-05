@@ -2,6 +2,10 @@
 
 Fully Responsive Admin Panel Using HTML5, CSS3 & Bootstrap 5
 
+## Demo
+
+[View Demo](https://dcodemania.netlify.app/)
+
 ## Features
 
 - Light Mode Only
