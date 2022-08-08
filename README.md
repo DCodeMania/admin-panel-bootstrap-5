@@ -33,8 +33,6 @@ Contributions are always welcome!
 
 See `contributing.md` for ways to get started.
 
-Please adhere to this project's `code of conduct`.
-
 ## License
 
 [MIT](https://github.com/DCodeMania/admin-panel-bootstrap-5/blob/master/README.md)
