@@ -35,7 +35,7 @@ See `contributing.md` for ways to get started.
 
 ## License
 
-[MIT](https://github.com/DCodeMania/admin-panel-bootstrap-5/blob/master/README.md)
+[MIT](https://github.com/DCodeMania/admin-panel-bootstrap-5/blob/master/LICENCE.md)
 
 ## Authors
 
