@@ -107,6 +107,10 @@ body {
 	}
 }
 
+canvas {
+	width: 100% !important;
+}
+
 @media (min-width: 768px) {
 	.wrapper {
 		&.show_pc {
