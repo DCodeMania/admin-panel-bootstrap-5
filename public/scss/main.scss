@@ -92,6 +92,21 @@ body {
 	}
 }
 
+.custom-card {
+	overflow: hidden;
+	h1 {
+		font-size: 3rem;
+		i {
+			transition: all 0.2s ease-in-out;
+		}
+	}
+	&:hover {
+		i {
+			transform: rotate3d(0, 0, 1, -10deg) scale(1.8);
+		}
+	}
+}
+
 @media (min-width: 768px) {
 	.wrapper {
 		&.show_pc {
