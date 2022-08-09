@@ -111,6 +111,25 @@ canvas {
 	width: 100% !important;
 }
 
+[data-bs-toggle='collapse']:after {
+	display: inline-block;
+	position: absolute;
+	right: 15px;
+	color: $textColor;
+	top: 17px;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content: '\f105';
+	transform: rotate(90deg);
+	transition: all linear 0.25s;
+}
+[data-bs-toggle='collapse'].collapsed:after {
+	transform: rotate(0deg);
+}
+
 @media (min-width: 768px) {
 	.wrapper {
 		&.show_pc {
@@ -121,6 +140,9 @@ canvas {
 					&.active .nav-link {
 						border-left: 0;
 					}
+				}
+				[data-bs-toggle='collapse']:after {
+					display: none;
 				}
 			}
 			.icon {

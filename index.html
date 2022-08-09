@@ -27,6 +27,7 @@
             <a href="javascript:void(0)" id="close_sidebar"><i class="fas fa-times-circle fa-lg"></i></a>
           </div>
         </div>
+
         <ul class="nav nav-pills flex-column">
 
           <li class="nav-item">
@@ -37,12 +38,46 @@
             </a>
           </li>
 
+          <!-- drodown menu start -->
+          <li class="nav-item position-relative" data-bs-toggle="collapse" href="#masterCollapse" role="button"
+            aria-expanded="false" aria-controls="masterCollapse">
+            <a class="nav-link" href="#">
+              <span class="icon" data-bs-toggle="tooltip" data-bs-title="Master">
+                <i class="fas fa-cubes"></i>
+              </span>
+              <span class="menu">Master</span>
+            </a>
+          </li>
+          <div class="collapse" id="masterCollapse">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="icon" data-bs-toggle="tooltip" data-bs-title="Child One">
+                  <i class="fas fa-cube"></i>
+                </span>
+                <span class="menu">Child One</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="icon" data-bs-toggle="tooltip" data-bs-title="Child Two">
+                  <i class="fas fa-cube"></i>
+                </span>
+                <span class="menu">Child Two</span>
+              </a>
+            </li>
+          </div>
+          <!-- dropdown menu end -->
+
+
+
           <li class="nav-item active">
             <a class="nav-link" href="#">
               <span class="icon" data-bs-toggle="tooltip" data-bs-title="Users"><i class="fas fa-users"></i></span>
               <span class="menu">Users</span>
             </a>
           </li>
+
 
           <li class="nav-item">
             <a class="nav-link" href="#">
