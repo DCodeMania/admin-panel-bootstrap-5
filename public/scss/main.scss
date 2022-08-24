@@ -46,6 +46,9 @@ body {
 	position: relative;
 	display: flex;
 	min-height: 100vh;
+	.content {
+		width: 100%;
+	}
 	.sidebar {
 		width: 250px;
 		transition: width 0.3s ease;
