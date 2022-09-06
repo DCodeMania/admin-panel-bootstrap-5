@@ -32,7 +32,7 @@ fullscreen.onclick = function () {
   if (i.classList.contains('fa-expand')) {
     i.classList.add('fa-compress');
     i.classList.remove('fa-expand');
-    wrapper.requestFullscreen();
+    document.documentElement.requestFullscreen();
   } else {
     i.classList.add('fa-expand');
     i.classList.remove('fa-compress');
