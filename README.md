@@ -2,7 +2,7 @@
 
 Fully Responsive Admin Panel Using HTML5, CSS3 & Bootstrap 5
 
-![Alt text](screenshot.png 'Title')
+![Alt text](screenshot2.png 'Title')
 
 ## Demo
 
