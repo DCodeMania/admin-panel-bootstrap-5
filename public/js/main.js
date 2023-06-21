@@ -40,5 +40,29 @@ fullscreen.onclick = function () {
   }
 }
 
+const collapseElement = document.querySelector('[data-bs-toggle="collapse"]');
+let isCollapsed = true;
+
+collapseElement.addEventListener('click', function () {
+  if (isCollapsed) {
+    this.classList.add('collapsed');
+    isCollapsed = false;
+  } else {
+    this.classList.remove('collapsed');
+    isCollapsed = true;
+  }
+});
+
+const childItems = document.querySelectorAll('#masterCollapse .nav-item');
+const parentCollapse = document.querySelector('#masterCollapse');
+
+for (let i = 0; i < childItems.length; i++) {
+  if (childItems[i].classList.contains('active')) {
+    parentCollapse.classList.add('show');
+    collapseElement.classList.add('collapsed');
+    break;
+  }
+}
+
 
 
